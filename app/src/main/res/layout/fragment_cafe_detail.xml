@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CafeFragment"
-    android:padding="20dp">
-    <LinearLayout
+    tools:context=".CafeDetailFragment"
+    android:padding="30dp">
+    <TextView
+        android:id="@+id/content_description"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="15sp"
-            android:text="@string/hello_blank_fragment"/>
-    </LinearLayout>
-</ScrollView>
+        android:layout_height="match_parent"
+        android:text="" />
+</FrameLayout>
